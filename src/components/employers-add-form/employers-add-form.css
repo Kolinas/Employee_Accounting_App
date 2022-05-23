@@ -1,0 +1,31 @@
+.app-add-form {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #45803d;
+    border-radius: 4px;
+    box-shadow: 15px 15px 30px rgba(0,0,0, .15);
+    color: rgb(247, 217, 83);
+}
+
+.add-form {
+    margin-top: 20px;
+}
+
+.add-form input {
+    width: 100%;
+    margin-right: 20px;
+}
+
+@media (max-width:500px) {
+    .add-form {
+        flex-direction: column;
+    }
+
+    .add-form input {
+        margin-top: 15px;
+    }
+
+    .btn-outline-light {
+        margin-top: 15px;
+    }
+}
